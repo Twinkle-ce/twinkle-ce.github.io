@@ -21,8 +21,8 @@ redirect_from:
     color: white;  /* 白色文字 */
     padding: 6px 12px;
     border-radius: 6px;
-    font-size: 0.95em;
-    font-weight: 600;
+    /* font-size: 0.95em;
+    font-weight: 600; */
     letter-spacing: 0.5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -35,20 +35,6 @@ redirect_from:
     transition: background-color 0.2s ease;
   }
 
-  dl dt img {
-    width: 100%; /* 在移动端默认占满宽度 */
-    aspect-ratio: 2/1; /* 设置宽高比为2:1，即高度为宽度的一半 */
-    object-fit: cover; /* 确保图片不会被裁剪 */
-    display: block;
-    margin: 10px 10px 10px 0px; /* 适当的间距 */
-    
-    /* 添加美化效果 */
-    border-radius: 8px; /* 让图片有轻微的圆角 */
-    border: 2px solid #ddd; /* 添加淡灰色的边框 */
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* 添加轻微阴影 */
-    padding: 5px; /* 给图片一些内边距，让它不贴着边框 */
-    background-color: #fff; /* 设置背景色，让图片更加干净 */
-  }
   /* 教育和工作经历卡片样式 */
   .experience-card, .education-card {
     display: flex;
@@ -92,7 +78,7 @@ redirect_from:
   }
 
   .experience-title, .education-title {
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     margin-bottom: 8px;
     color: #2c3e50;
   }
@@ -119,7 +105,7 @@ redirect_from:
   }
 
   .section-title {
-    font-size: 1.8em;
+    /* font-size: 1.8em; */
     color: #2c3e50;
     margin: 40px 0 20px;
     padding-bottom: 10px;
@@ -170,6 +156,7 @@ hspace="10" wspace="20" src="../images/Ultra100K.png">
 </dt>
   <dd><a href="https://arxiv.org/abs/"><strong>UltraHR-100K: Enhancing UHR Image Synthesis with A Large-Scale High-Quality Dataset</strong></a></dd>
   <dd>Chen Zhao<sup>*</sup>, <strong>En Ci<sup>*</sup></strong>, Yunzhe Xu<sup>*</sup>, Tiehan Fan, Shanyan Guan, Yanhao Ge, Jian Yang, Ying Tai</dd>
+  <dd>Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025</dd>
 </dl>
 
 <hr>
@@ -181,6 +168,7 @@ hspace="10" wspace="20" src="../images/DescribeEdit.png">
 </dt>
   <dd><a href="https://arxiv.org/abs/2508.20505"><strong>Describe, Don't Dictate: Semantic Image Editing with Natural Language Intent</strong></a></dd>
   <dd><strong>En Ci<sup>*</sup></strong>, Shanyan Guan<sup>*</sup>, Yanhao Ge, Yilin Zhang, Wei Li, Zhenyu Zhang, Jian Yang, Ying Tai</dd>
+  <dd>International Conference on Computer Vision (<strong>ICCV</strong>), 2025</dd>
 </dl>
 
 <hr>
@@ -193,6 +181,7 @@ hspace="10" wspace="20" src="../images/LDNet.png">
   <dd><a href="https://arxiv.org/pdf/2502.12614"><strong>Label Drop for Multi-Aspect Relation Modeling in Universal Information
 Extraction</strong></a></dd>
   <dd>Lu Yang, Jiajia Li, <strong>En Ci</strong>, Lefei Zhang, Zuchao Li, Ping Wang</dd>
+  <dd>The Annual Conference of the North American Chapter of the Association for Computational Linguistics (<strong>NAACL</strong>), 2025</dd>
 </dl>
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
