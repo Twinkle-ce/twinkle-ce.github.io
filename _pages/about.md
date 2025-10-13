@@ -29,6 +29,26 @@ redirect_from:
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     font-style: italic;  /* 添加斜体 */
   }
+   /* 鼠标悬停效果 */
+  .conference-label:hover {
+    background-color: #34495e;  /* 悬停时稍微变亮 */
+    transition: background-color 0.2s ease;
+  }
+
+  dl dt img {
+    width: 100%; /* 在移动端默认占满宽度 */
+    aspect-ratio: 2/1; /* 设置宽高比为2:1，即高度为宽度的一半 */
+    object-fit: cover; /* 确保图片不会被裁剪 */
+    display: block;
+    margin: 10px 10px 10px 0px; /* 适当的间距 */
+    
+    /* 添加美化效果 */
+    border-radius: 8px; /* 让图片有轻微的圆角 */
+    border: 2px solid #ddd; /* 添加淡灰色的边框 */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* 添加轻微阴影 */
+    padding: 5px; /* 给图片一些内边距，让它不贴着边框 */
+    background-color: #fff; /* 设置背景色，让图片更加干净 */
+  }
   /* 教育和工作经历卡片样式 */
   .experience-card, .education-card {
     display: flex;
