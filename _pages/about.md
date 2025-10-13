@@ -117,13 +117,13 @@ My name is En Ci, a CS M.S. student at Nanjing University, supervised by [Ying T
 
 
 # 🔥 News
-<em>2025.09:</em> 🎉 One paper was accepted by <strong>NeurIPS 2025</strong>.
-<em>2025.09:</em> 🎉 Commenced my M.S. journey at <strong>Nanjing University</strong>, expecting three years of fruitful research.
-<em>2025.06:</em> 🎉 One paper was accepted by <strong>ICCV 2025</strong>. See you in Hawaii!
-<em>2025.06:</em> 🎈 Recognized as an <strong>Outstanding Graduate</strong> of Wuhan University. I am deeply grateful for the four enriching years spent here!
-<em>2025.01:</em> 🎉 One paper was accepted by <strong>NAACL 2025</strong>.
-<em>2024.11:</em> 🎈 I was honored with <strong>Lei Jun Scholarship(Undergraduate)</strong>.
-<em>2023.10:</em> 🎈 I was honored with <strong>the National Scholarship</strong>(0.2% nation-wide). 
+<li><em>2025.09:</em> 🎉 One paper was accepted by <strong>NeurIPS 2025</strong>.</li>
+<li><em>2025.09:</em> 🎉 Commenced my M.S. journey at <strong>Nanjing University</strong>, expecting three years of fruitful research.</li>
+<li><em>2025.06:</em> 🎉 One paper was accepted by <strong>ICCV 2025</strong>. See you in Hawaii!</li>
+<li><em>2025.06:</em> 🎈 Recognized as an <strong>Outstanding Graduate</strong> of Wuhan University. I am deeply grateful for the four enriching years spent here!</li>
+<li><em>2025.01:</em> 🎉 One paper was accepted by <strong>NAACL 2025</strong>.</li>
+<li><em>2024.11:</em> 🎈 I was honored with <strong>Lei Jun Scholarship(Undergraduate)</strong>.</li>
+<li><em>2023.10:</em> 🎈 I was honored with <strong>the National Scholarship</strong>(0.2% nation-wide). </li>
 
 # 📝 Publications 
 **\* Equal Contribution**   
@@ -223,4 +223,4 @@ Extraction</strong></a></dd>
   </div>
 </div>
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=0Rpqiq9n6R9WC3DYQXr0-QOKrEZyMTOAF6jyn-qaZ9E"></script>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=0Rpqiq9n6R9WC3DYQXr0-QOKrEZyMTOAF6jyn-qaZ9E&cl=ffffff&w=a"></script>
