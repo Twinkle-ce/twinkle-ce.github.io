@@ -131,7 +131,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-My name is En Ci, a CS M.S. student at Nanjing University, supervised by [Ying Tai](https://tyshiwo.github.io/). I obtained my B.S. degree at Wuhan University, advised by [Zuchao Li](https://zcli-charlie.github.io/). My current research interest centers on AIGC(AI-Generated-Content) and MLLM(Multimodal Lagre Lanuage Model), including image generation/editing, unified understanding and generation. 
+My name is En Ci, a first-year CS M.S. student at Nanjing University, supervised by [Ying Tai](https://tyshiwo.github.io/). I obtained my B.S. degree at Wuhan University, advised by [Zuchao Li](https://zcli-charlie.github.io/). My current research interest centers on AIGC(AI-Generated-Content) and MLLM(Multimodal Lagre Lanuage Model), including image generation/editing, unified understanding and generation. Feel free to reach out to me at [cien@smail.nju.edu.cn](mailto:cien@smail.nju.edu.cn) for any academic collaboration or research communication. 
 
 <!-- I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
