@@ -154,7 +154,7 @@ My name is En Ci, a first-year CS M.S. student at Nanjing University, supervised
 hspace="10" wspace="20" src="../images/Ultra100K.png">
 <span class="conference-label">NeurIPS 2025</span>
 </dt>
-  <dd><a href="https://arxiv.org/abs/"><strong>UltraHR-100K: Enhancing UHR Image Synthesis with A Large-Scale High-Quality Dataset</strong></a></dd>
+  <dd><a href="https://arxiv.org/abs/2510.20661"><strong>UltraHR-100K: Enhancing UHR Image Synthesis with A Large-Scale High-Quality Dataset</strong></a></dd>
   <dd>Chen Zhao<sup>*</sup>, <strong>En Ci<sup>*</sup></strong>, Yunzhe Xu<sup>*</sup>, Tiehan Fan, Shanyan Guan, Yanhao Ge, Jian Yang, Ying Tai</dd>
   <dd>Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025</dd>
 </dl>
