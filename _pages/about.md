@@ -197,15 +197,11 @@ redirect_from:
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   }
   
-  .globe-container {
-    /* 1. 实现水平居中 */
-    max-width: 300px; /* 缩小：设置您想要的宽度，例如300px */
-    margin-left: auto; /* 自动左边距 */
-    margin-right: auto; /* 自动右边距 */
-    /* 或者使用更现代的 Flex 布局实现居中（如果容器本身是块级元素，上面三行即可）*/
-    /* display: flex; */
-    /* justify-content: center; */
-}
+  /* .globe-container {
+    max-width: 300px;
+    margin-left: auto; 
+    margin-right: auto; 
+   } */
 </style>
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
@@ -345,6 +341,6 @@ My name is En Ci, a first-year CS M.S. student at Nanjing University, supervised
   </div>
 </div>
 
-<div class="globe-container">
+<!-- <div class="globe-container">
     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=0Rpqiq9n6R9WC3DYQXr0-QOKrEZyMTOAF6jyn-qaZ9E"></script>
-</div>
+</div> -->
