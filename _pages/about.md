@@ -111,6 +111,91 @@ redirect_from:
     padding-bottom: 10px;
     border-bottom: 2px solid #ecf0f1;
   }
+  /* 论文卡片样式 */
+  .pub-card {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 25px;
+    padding: 20px 20px 20px 25px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    border: 1px solid #e9ecef;
+    border-left: 4px solid #2c3e50;
+    transition: all 0.3s ease;
+  }
+
+  .pub-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-color: #dee2e6;
+    border-left-color: #3498db;
+  }
+
+  .pub-card .pub-thumb {
+    flex-shrink: 0;
+    width: 120px;
+    height: 90px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+
+  .pub-card .pub-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .pub-card .pub-info {
+    flex: 1;
+  }
+
+  .pub-card .pub-title {
+    font-size: 1.02em;
+    font-weight: 600;
+    margin-bottom: 6px;
+    line-height: 1.4;
+  }
+
+  .pub-card .pub-title a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .pub-card .pub-title a:hover {
+    color: #3498db;
+  }
+
+  .pub-card .pub-authors {
+    color: #555;
+    font-size: 0.92em;
+    margin-bottom: 5px;
+    line-height: 1.5;
+  }
+
+  .pub-card .pub-venue {
+    color: #888;
+    font-size: 0.88em;
+    font-style: italic;
+  }
+
+  .pub-card .pub-badge {
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 0.82em;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
   
   .globe-container {
     /* 1. 实现水平居中 */
@@ -137,6 +222,7 @@ My name is En Ci, a first-year CS M.S. student at Nanjing University, supervised
 
 
 # 🔥 News
+<li><em>2026.02:</em> 🎉 One paper was accepted by <strong>CVPR 2026</strong>.</li>
 <li><em>2025.09:</em> 🎉 One paper was accepted by <strong>NeurIPS 2025</strong>.</li>
 <li><em>2025.09:</em> 🎉 Commenced my M.S. journey at <strong>Nanjing University</strong>, expecting three years of fruitful research.</li>
 <li><em>2025.06:</em> 🎉 One paper was accepted by <strong>ICCV 2025</strong>. See you in Hawaii!</li>
@@ -148,41 +234,41 @@ My name is En Ci, a first-year CS M.S. student at Nanjing University, supervised
 # 📝 Publications 
 **\* Equal Contribution**   
 
+<div class="pub-card">
+  <div class="pub-thumb">
+    <img src="../images/Ultra100K.png" alt="UltraHR-100K">
+  </div>
+  <div class="pub-info">
+    <div class="pub-title"><a href="https://arxiv.org/abs/2510.20661">UltraHR-100K: Enhancing UHR Image Synthesis with A Large-Scale High-Quality Dataset</a></div>
+    <div class="pub-authors">Chen Zhao<sup>*</sup>, <strong>En Ci<sup>*</sup></strong>, Yunzhe Xu<sup>*</sup>, Tiehan Fan, Shanyan Guan, Yanhao Ge, Jian Yang, Ying Tai</div>
+    <div class="pub-venue">Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025</div>
+  </div>
+  <span class="pub-badge">NeurIPS 2025</span>
+</div>
 
-<dl>
-  <dt><img align="left" width="100"
-hspace="10" wspace="20" src="../images/Ultra100K.png">
-<span class="conference-label">NeurIPS 2025</span>
-</dt>
-  <dd><a href="https://arxiv.org/abs/2510.20661"><strong>UltraHR-100K: Enhancing UHR Image Synthesis with A Large-Scale High-Quality Dataset</strong></a></dd>
-  <dd>Chen Zhao<sup>*</sup>, <strong>En Ci<sup>*</sup></strong>, Yunzhe Xu<sup>*</sup>, Tiehan Fan, Shanyan Guan, Yanhao Ge, Jian Yang, Ying Tai</dd>
-  <dd>Annual Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025</dd>
-</dl>
+<div class="pub-card">
+  <div class="pub-thumb">
+    <img src="../images/DescribeEdit.png" alt="DescribeEdit">
+  </div>
+  <div class="pub-info">
+    <div class="pub-title"><a href="https://arxiv.org/abs/2508.20505">Describe, Don't Dictate: Semantic Image Editing with Natural Language Intent</a></div>
+    <div class="pub-authors"><strong>En Ci<sup>*</sup></strong>, Shanyan Guan<sup>*</sup>, Yanhao Ge, Yilin Zhang, Wei Li, Zhenyu Zhang, Jian Yang, Ying Tai</div>
+    <div class="pub-venue">International Conference on Computer Vision (<strong>ICCV</strong>), 2025</div>
+  </div>
+  <span class="pub-badge">ICCV 2025</span>
+</div>
 
-<hr>
-
-<dl>
-  <dt><img align="left" width="100"
-hspace="10" wspace="20" src="../images/DescribeEdit.png">
-<span class="conference-label">ICCV 2025</span>
-</dt>
-  <dd><a href="https://arxiv.org/abs/2508.20505"><strong>Describe, Don't Dictate: Semantic Image Editing with Natural Language Intent</strong></a></dd>
-  <dd><strong>En Ci<sup>*</sup></strong>, Shanyan Guan<sup>*</sup>, Yanhao Ge, Yilin Zhang, Wei Li, Zhenyu Zhang, Jian Yang, Ying Tai</dd>
-  <dd>International Conference on Computer Vision (<strong>ICCV</strong>), 2025</dd>
-</dl>
-
-<hr>
-
-<dl>
-  <dt><img align="left" width="100"
-hspace="10" wspace="20" src="../images/LDNet.png">
-<span class="conference-label">NAACL 2025</span>
-</dt>
-  <dd><a href="https://arxiv.org/pdf/2502.12614"><strong>Label Drop for Multi-Aspect Relation Modeling in Universal Information
-Extraction</strong></a></dd>
-  <dd>Lu Yang, Jiajia Li, <strong>En Ci</strong>, Lefei Zhang, Zuchao Li, Ping Wang</dd>
-  <dd>The Annual Conference of the North American Chapter of the Association for Computational Linguistics (<strong>NAACL</strong>), 2025</dd>
-</dl>
+<div class="pub-card">
+  <div class="pub-thumb">
+    <img src="../images/LDNet.png" alt="LDNet">
+  </div>
+  <div class="pub-info">
+    <div class="pub-title"><a href="https://arxiv.org/pdf/2502.12614">Label Drop for Multi-Aspect Relation Modeling in Universal Information Extraction</a></div>
+    <div class="pub-authors">Lu Yang, Jiajia Li, <strong>En Ci</strong>, Lefei Zhang, Zuchao Li, Ping Wang</div>
+    <div class="pub-venue">The Annual Conference of the North American Chapter of the Association for Computational Linguistics (<strong>NAACL</strong>), 2025</div>
+  </div>
+  <span class="pub-badge">NAACL 2025</span>
+</div>
 
 <!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -233,6 +319,18 @@ Extraction</strong></a></dd>
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships
+<div class="experience-card">
+  <div class="experience-info">
+    <div class="experience-title">
+      <a href="https://hunyuan.tencent.com/">Tencent Hunyuan, Shenzhen</a>
+    </div>
+    <div class="experience-role">Internship, Assistant Algorithm Engineer, 2026.03 ~ </div>
+  </div>
+  <div class="experience-logo">
+    <img src="../images/hunyuan.png" alt="Hunyuan Logo" />
+  </div>
+</div>
+
 <div class="experience-card">
   <div class="experience-info">
     <div class="experience-title">
