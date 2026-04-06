@@ -328,7 +328,7 @@ My name is En Ci, a first-year CS M.S. student at Nanjing University, supervised
         <div class="experience-topics">Topics: Joint Audio-Video Generation</div>
   </div>
   <div class="experience-logo">
-    <img src="../images/hunyuan.png" alt="Hunyuan Logo" />
+    <img src="../images/hunyuan-color.png" alt="Hunyuan Logo" />
   </div>
 </div>
 
