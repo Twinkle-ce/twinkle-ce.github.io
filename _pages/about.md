@@ -325,6 +325,7 @@ My name is En Ci, a first-year CS M.S. student at Nanjing University, supervised
       <a href="https://hunyuan.tencent.com/">Tencent Hunyuan, Shenzhen</a>
     </div>
     <div class="experience-role">Internship, Assistant Algorithm Engineer, 2026.03 ~ </div>
+        <div class="experience-topics">Topics: Joint Audio-Video Generation</div>
   </div>
   <div class="experience-logo">
     <img src="../images/hunyuan.png" alt="Hunyuan Logo" />
@@ -336,8 +337,8 @@ My name is En Ci, a first-year CS M.S. student at Nanjing University, supervised
     <div class="experience-title">
       <a href="https://vivo.com/">vivo, Shanghai</a>
     </div>
-    <div class="experience-role">Internship, Assistant Algorithm Engineer, 2024.10 ~ </div>
-    <!-- <div class="experience-topics">Topics: (M)LLM, GUI Agent</div> -->
+    <div class="experience-role">Internship, Assistant Algorithm Engineer, 2024.10 ~ 2025.10 </div>
+    <div class="experience-topics">Topics: Image Generation/Editing</div>
   </div>
   <div class="experience-logo">
     <img src="../images/vivo.png" alt="vivo Logo" />
